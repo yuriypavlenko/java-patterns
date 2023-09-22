@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "json array",
+  "description": "Wiremock response from GET /json",
+  "type": "array",
+  "items": {
+    "type": "integer",
+    "enum": [1, 2, 3]
+  }
+}

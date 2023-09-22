@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/shopping"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/xml"
+    },
+    "body": "<shopping>\n      <category type=\"groceries\">\n        <item>Chocolate</item>\n        <item>Coffee</item>\n      </category>\n      <category type=\"supplies\">\n        <item>Paper</item>\n        <item quantity=\"4\">Pens</item>\n      </category>\n      <category type=\"present\">\n        <item when=\"Aug 10\">Kathryn's Birthday</item>\n      </category>\n</shopping>"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/users/csrf"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html"
+    },
+    "body": "<html>\n<head>\n<title>Add User</title>\n</head>\n<body>\n<form action=\"/users\" method=\"POST\">\n<table>\n  <tr>\n      <td>First Name:&nbsp;</td>\n      <td><input type=\"text\" name=\"firstName\"></td>\n  </tr>\n  <tr>\n      <td>Last Name:</td>\n      <td><input type=\"text\" name=\"lastName\"></td>\n  </tr>\n  <tr>\n      <td colspan=\"2\"><input name=\"submit\" type=\"submit\"/></td>\n  </tr>\n</table>\n<input type=\"hidden\" name=\"_csrf\" value=\"8adf2ea1-b246-40aa-8e13-a85fb7914341\"/>\n</form>\n</body>\n</html>"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Customer",
+  "description": "Single customer",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Unique identifier of customer",
+      "type": "integer"
+    }
+  },
+  "required": ["id"]
+}

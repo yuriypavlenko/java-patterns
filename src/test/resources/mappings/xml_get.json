@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/greetXML"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/xml"
+    },
+    "body": "<greeting><firstName>John</firstName><lastName>Doe</lastName></greeting>"
+  }
+}

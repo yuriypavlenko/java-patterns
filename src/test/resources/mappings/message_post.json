@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/message"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {"code":  0, "message": "Message received"}
+  }
+}
